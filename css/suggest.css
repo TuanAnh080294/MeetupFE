@@ -1,0 +1,23 @@
+#suggest {
+    border-bottom: 1px solid #DDD;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btn-suggest {
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+    border: 1px solid #BBB;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 8px;
+}
+
+.btn-suggest:hover {
+    border-color: #888;
+    cursor: pointer;
+}

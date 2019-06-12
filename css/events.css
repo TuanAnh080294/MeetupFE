@@ -1,0 +1,52 @@
+#events {
+    width: 100%;   
+    margin-top: 15px;
+}
+
+#events .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#events h4 {
+    color: #0098AB;
+}
+
+.event {
+    border: #EEE solid 1px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 5px;
+    position: relative;
+}
+
+.event:hover {
+    top: -1px;
+    box-shadow: 0px 0px 5px 0 #EEE;
+    cursor: pointer;
+}
+
+.event .footer {
+    display: flex;
+}
+
+.event .footer p {
+    flex-grow: 1;
+}
+
+.event .footer .btn-attend {
+    padding: 10px 15px;
+    border: 1px solid #0098AB;
+    color: #0098AB;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+.event .footer .btn-attend:hover {
+    background-color: #0098AB;
+    color: #FFF;
+    cursor: pointer; 
+}
