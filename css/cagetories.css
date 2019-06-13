@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cagetory .tittle {
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#cagetories .row {
+    height: 150px;
+}
+
+.cagetory {
+    height: 100%;
+}
+
+.cagetory .image {
+    height: 80%;
+    background-image: url('/image/cagetories.jpeg');
+    width: 25%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin: 0 0 0.5rem 0.5rem;
+}
+
+
