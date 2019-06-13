@@ -1,0 +1,53 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+#header {
+    padding: 1rem 1rem;
+    margin-bottom: 2px;
+    display: flex;
+    border-bottom: #EEE solid 1px;
+}
+
+#header #logo {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+#header #logo img {
+    width: 7rem;
+}
+
+#header #menu .first a{
+    color: #0BA6C9;
+    border-right: 1px solid #888;
+    padding: 0 1rem;
+}
+
+#header #menu {
+    height: 100%;
+    line-height: 2rem;
+}
+
+#header #menu ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#header #menu li {
+    list-style-type: none;
+    padding-right: 1rem;
+}
+
+#header #menu a {
+    text-decoration: none; 
+    color: #333;
+}
+
+#header #menu a:hover {
+    color: #0BA6C9;
+}
+
