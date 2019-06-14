@@ -1,6 +1,5 @@
 #events {
-    
-    margin-top: 15px;
+    margin-top: 3rem;
 }
 
 #events .row {
@@ -9,18 +8,24 @@
     align-items: center;
 }
 
+#events h2, p{
+    margin-top: 5px;
+}
+
 #events h4 {
     color: #0098AB;
 }
 
 .event {
     border: #EEE solid 1px;
+    flex-grow: 1;
     padding: 15px;
     border-radius: 5px;
     width: 30%;
     box-sizing: border-box;
-    margin: 5px;
-    /* position: relative; */
+    margin: 0.5rem 1rem 0.5rem 0;
+    position: relative;
+    line-height: 30px;
 }
 
 .event:hover {
@@ -31,22 +36,30 @@
 
 .event .footer {
     display: flex;
+    margin-top: 1rem;
 }
 
 .event .footer p {
     flex-grow: 1;
+    color: #666;
 }
 
 .event .footer .btn-attend {
-    padding: 10px 15px;
+    padding: 0.8rem 1.5rem;
     border: 1px solid #0098AB;
     color: #0098AB;
     background-color: #FFF;
     border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 
 .event .footer .btn-attend:hover {
     background-color: #0098AB;
     color: #FFF;
     cursor: pointer; 
+}
+
+.event .address {
+    color:#888;
 }

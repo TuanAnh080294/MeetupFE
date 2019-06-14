@@ -3,6 +3,7 @@ body {
     font-size: 14px;
 }
 
+/* css header */
 #header {
     padding: 1rem 1rem;
     margin-bottom: 2px;
@@ -51,3 +52,8 @@ body {
     color: #0BA6C9;
 }
 
+/* css container */
+.container {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
