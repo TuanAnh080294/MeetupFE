@@ -1,3 +1,4 @@
+/* css cho desktop */
 body {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
@@ -57,3 +58,178 @@ body {
     display: grid;
     grid-template-columns: 20% 60% 20%;
 }
+
+/* css how meet up works */
+#how-meetup-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0f1721;
+    color: white;
+    padding: 4rem 0 5rem 0;
+}
+
+#how-meetup-work h1 {
+    padding-bottom: 3rem;
+}
+
+#how-meetup-work .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+#how-meetup-work .content .discover, .start{
+    display: flex;
+    margin-right: 3rem;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+#how-meetup-work .content .discover .left, .start .left{
+    font-size: 5rem;
+    margin-right: 1rem;
+    padding-right: 4px;
+}
+
+#how-meetup-work .content a, .discover .left, .start .left {
+    color: #0BA6C9;
+    
+}
+
+
+#how-meetup-work .content a {
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+/* css get-the-app */
+
+#get-the-app {
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+    /* margin-top: 3rem; */
+}
+
+#get-the-app .left {
+    width: 50%;
+    margin-left: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#get-the-app .right {
+    width: 50%;
+    background-image: url('/image/get-the-app.png');
+    height: 100%;
+    background-size: 30%;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#get-the-app a {
+    color: #0BA6C9;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#get-the-app .group-button {
+    margin-top: 3rem;
+    display: flex;
+}
+
+#get-the-app .left .group-button button .icon {
+    font-size: 2rem;
+    width: 10%;
+    padding-right: 30px;
+}
+
+.group-button button {
+    display: flex;
+    width: 160px;
+    height: 50px;
+    margin-right: 2rem;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    padding: 10px !important;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 6px;
+    font-size: 10px;
+    border: none;
+}
+
+
+/* css fotter */
+
+#footer {
+    color: #FFF;
+    background-color: #353E48;
+    display: flex;
+}
+
+#footer .left {
+    width: 20%;
+}
+
+#footer .right {
+    width: 20%;
+}
+
+#footer .center {
+    width: 60%;
+}
+
+#footer #content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer #content .column {
+    padding: 10px;
+    line-height: 2rem;
+}
+
+#footer .center #head {
+    padding: 2rem 0;
+    border-bottom: #888 solid 1px;
+}
+
+#footer .center #head a {
+    color: #FFF;
+}
+
+#footer li a{
+    text-decoration: none;
+    color: #888;
+}
+
+#footer li .tittle {
+    color: #FFF;
+}
+
+#footer .term {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#footer .term li {
+    margin-right: 5px;
+}
+
+#footer li {
+    list-style-type: none;
+}
+

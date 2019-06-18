@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/cagetories.css">
     <link rel="stylesheet" href="css/events.css">
@@ -198,13 +199,84 @@
         </div>
 
         <div id="cagetories">
-            <div id="cagetories">
+            <h2>Categories</h2>
+            <p>Browse groups by topics you're interested in.</p>
+            <div id="cagetory">
                 <div class="row">
                     <div class="cagetory">
                             <div class="image"></div>
                             <div class="tittle">Tech</div>
                     </div>
+                    <div class="cagetory">
+                            <div class="image"></div>
+                            <div class="tittle">Tech</div>
+                    </div>
+                    <div class="cagetory">
+                            <div class="image"></div>
+                            <div class="tittle">Tech</div>
+                    </div>
+                    <div class="cagetory">
+                            <div class="image"></div>
+                            <div class="tittle">Tech</div>
+                    </div>
                 </div>
+
+                <div class="row">
+                        <div class="cagetory">
+                                <div class="image"></div>
+                                <div class="tittle">Tech</div>
+                        </div>
+                        <div class="cagetory">
+                                <div class="image"></div>
+                                <div class="tittle">Tech</div>
+                        </div>
+                        <div class="cagetory">
+                                <div class="image"></div>
+                                <div class="tittle">Tech</div>
+                        </div>
+                        <div class="cagetory">
+                                <div class="image"></div>
+                                <div class="tittle">Tech</div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                            <div class="cagetory">
+                                    <div class="image"></div>
+                                    <div class="tittle">Tech</div>
+                            </div>
+                            <div class="cagetory">
+                                    <div class="image"></div>
+                                    <div class="tittle">Tech</div>
+                            </div>
+                            <div class="cagetory">
+                                    <div class="image"></div>
+                                    <div class="tittle">Tech</div>
+                            </div>
+                            <div class="cagetory">
+                                    <div class="image"></div>
+                                    <div class="tittle">Tech</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                                <div class="cagetory">
+                                        <div class="image"></div>
+                                        <div class="tittle">Tech</div>
+                                </div>
+                                <div class="cagetory">
+                                        <div class="image"></div>
+                                        <div class="tittle">Tech</div>
+                                </div>
+                                <div class="cagetory">
+                                        <div class="image"></div>
+                                        <div class="tittle">Tech</div>
+                                </div>
+                                <div class="cagetory">
+                                        <div class="image"></div>
+                                        <div class="tittle">Tech</div>
+                                </div>
+                            </div>
             </div>
         </div>
         </div>
@@ -212,94 +284,124 @@
     </div>
 
     <div id="how-meetup-work">
-        <h1>How Meetup Works</h1>           
-        <div class="discover">
-            <h2>Discover groups</h2>
-            <p>See who’s hosting local events for all the things you love.</p>
-            <a href="#">Join Meetup</a>
-        </div>
-        <div class="start">
-            <h2>Start a group</h2>
-            <p>Create your own Meetup group, and draw from a community of millions.</p>
-            <a href="#">Get started</a>
-        </div>
+        <h1>How Meetup Works</h1>
+        <div class="content">
+                
+                <div class="discover">
+                    <div class="left"><i class="fas fa-plus"></i></div>
+                    <div class="right">
+                            <h2>Discover groups</h2>
+                            <p>See who’s hosting local events for all the things you love.</p>
+                            <a href="#">Join Meetup <i class="fas fa-arrow-right"></i></a>
+                    </div>        
+                </div>
+                <div class="start">
+                    <div class="left"><i class="fas fa-search"></i></div>
+                    <div class="right">
+                            <h2>Start a group</h2>
+                            <p>Create your own Meetup group, and draw from a community of millions.</p>
+                            <a href="#">Get started <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+        </div>           
+        
     </div>
 
     <div id="get-the-app">
         <div class="left">
             <h1>Get the app</h1>
-            <a href="#">Learn more</a>
+            <a href="#">Learn more <i class="fas fa-arrow-right"></i></a>
             <div class="group-button">
-                <button>Download on the App Store</button>
-                <button>GET IT ON Google Play</button>
+                <button>
+                    <div class="icon">
+                            <i class="fab fa-apple"></i>
+                    </div>
+                    <div>
+                            Download on the <h3>App Store</h3>
+                    </div>
+                   
+                </button>
+                <button>
+                    <div class="icon">
+                        <img src="/image/google-play.svg" alt="" width="200%">
+                    </div>
+                    <div>
+                            GET IT ON <h3>Google Play</h3>
+                    </div>   
+                </button>
             </div>   
         </div>
         <div class="right">
-
+            
         </div>
     </div>
 
     <div id="footer">
-        <div id="head">
-            <a href="#">Start a new group</a>
-        </div>
-        <div id="content">
-            <div class="column">
-                <ul>
-                    <li class="tittle">Your Account</li>
-                    <li>Sign up</li>
-                    <li>Log in</li>
-                    <li>Help</li>
-                </ul>
+        <div class="left"></div>
+            <div class="center">
+            <div id="head">
+                <a href="#">Start a new group</a>
             </div>
+            <div id="content">
+                <div class="column">
+                    <ul>
+                        <li class="tittle">Your Account</li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Log in</a></li>
+                        <li><a href="#">Help</a></li>
+                        </ul>
+                </div>
 
-             <div class="column">
-                <ul>
-                    <li class="tittle">Your Account</li>
-                    <li>Sign up</li>
-                    <li>Log in</li>
-                    <li>Help</li>
-                </ul>
-            </div>
+                <div class="column">
+                    <ul>
+                        <li class="tittle">Your Account</li>
+                        <li>Sign up</li>
+                        <li>Log in</li>
+                        <li>Help</li>
+                    </ul>
+                </div>
 
-             <div class="column">
-                <ul>
-                    <li class="tittle">Your Account</li>
-                    <li>Sign up</li>
-                    <li>Log in</li>
-                    <li>Help</li>
-                </ul>
-            </div>
+                <div class="column">
+                    <ul>
+                        <li class="tittle">Your Account</li>
+                        <li>Sign up</li>
+                        <li>Log in</li>
+                        <li>Help</li>
+                    </ul>
+                </div>
 
-             <div class="column last">
-                Follow us
-                <div class="icons"></div>
-                <select>
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="mercedes">Mercedes</option>
-                        <option value="audi">Audi</option>
-                </select>
-                <div class="button-group">
-                    <button>Download on the App Store</button>
-                    <button>GET IT ON Google Play</button>
+                <div class="column-last">
+                    Follow us
+                    <div class="icons"></div>
+                    <select>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                    </select>
+                    <div class="button-group">
+                        <button>Download on the App Store</button>
+                        <button>GET IT ON Google Play</button>
+                    </div>
                 </div>
             </div>
+            <div class="intro">
+                <p>© Meetup 2019 . Meetup is a wholly owned subsidiary of WeWork Companies Inc.</p>
+                <ul class="term">
+                    <li>
+                        <a href="#">Terms of Service</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Cookie Policy</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="intro">
-            <p>© Meetup 2019 . Meetup is a wholly owned subsidiary of WeWork Companies Inc.</p>
-            <ul>
-                <li>
-                    <a href="#">Terms of Service</a>
-                </li>
-                <li>
-                    <a href="#">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="#">Cookie Policy</a>
-                </li>
-            </ul>
-        </div>
+        <div class="right"></div>
     </div>
 </body>
 </html>

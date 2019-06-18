@@ -9,21 +9,26 @@
     font-weight: bold;
 }
 #cagetories .row {
-    height: 150px;
+    height: 200px;
+    display: flex;
+    margin-bottom: 1rem;
 }
 
 .cagetory {
-    height: 100%;
+    width: 25%;
+    /* flex-grow: 1; */
+    box-sizing: border-box;
+    /* margin-right: 1rem; */
 }
 
 .cagetory .image {
-    height: 80%;
+    height: 163px;
     background-image: url('/image/cagetories.jpeg');
-    width: 25%;
+    width: 251px;
     background-size: cover;
     background-position: center;
     border-radius: 8px;
-    margin: 0 0 0.5rem 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
 }
 
 
